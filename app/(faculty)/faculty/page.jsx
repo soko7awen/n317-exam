@@ -13,7 +13,7 @@ export default function FacultyPage() {
         <ul>
         {facultyList.map(faculty => <li>{faculty}</li>)}
         </ul>
-        <input className="text-black" type="text" name="" id="" onChange={e => setTextBoxValue(e.target.value)} />
+        <input className="border border-solid border-black text-black" type="text" name="" id="" onChange={e => setTextBoxValue(e.target.value)} />
         <p>{textBoxValue}</p>
 
     </main>
