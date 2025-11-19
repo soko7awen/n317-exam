@@ -1,0 +1,16 @@
+@import url("./reset.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
